@@ -31,3 +31,7 @@ resource "aws_nat_gateway" "staging" {
 resource "aws_s3_bucket" "uploads" {
   bucket = "my-uploads"
 }
+
+resource "aws_s3_bucket" "uploads" {
+  bucket = "my-uploads-two"
+}
