@@ -35,3 +35,7 @@ resource "aws_s3_bucket" "uploads" {
 resource "aws_s3_bucket" "uploads" {
   bucket = "my-uploads-two"
 }
+
+resource "aws_s3_bucket" "uploads" {
+  bucket = "my-uploads-three"
+}
