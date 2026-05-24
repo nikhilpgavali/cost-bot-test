@@ -29,5 +29,5 @@ tags = { Environment = "staging" }
 }
 
 resource "aws_s3_bucket" "uploads" {
-bucket = "my-uploadssss"
+bucket = "my-uploadssssbbb"
 }
